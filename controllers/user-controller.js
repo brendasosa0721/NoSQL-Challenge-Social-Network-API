@@ -97,7 +97,7 @@ eraseUser({ params } , res) {
       .catch((err) => res.status(400).json(err));
   },
 
-  deleteFriend({ params }, res) {
+  eraseFriend({ params }, res) {
     User.findOneAndUpdate(
       { _id: params.userId },
       { $pull: { friends: params.friendId } },

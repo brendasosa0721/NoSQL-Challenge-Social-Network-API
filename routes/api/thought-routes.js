@@ -12,6 +12,11 @@ const {
     eraseReaction
 } = require('../../controllers/thought-controller');
 
+router
+.route('/')
+.get(getEveryThought)
+.post(createThought);
+
 // Get all api thoughts by ID
 router
 .route('/:id')
