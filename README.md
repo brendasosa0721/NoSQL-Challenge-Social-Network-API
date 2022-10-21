@@ -23,6 +23,4 @@ Brenda Sosa
 
 Email: brenda.sosa@gmail.com
 
-Portfolio link: 
-
 This project was fun to created and I learned a lot. I will be working on this and adding more as I go.
