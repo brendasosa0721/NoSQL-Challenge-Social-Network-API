@@ -21,10 +21,13 @@ router
 
 router
 .route('/:id')
-.get(gerUserById)
+.get(getUserById)
 .put(updateUser)
-.delete(eraseUser);
+.delete(eraseUser)
 
+router
+.route('/:userId')
+.delete(deleteUser);
 
 router
 .route('/:userId/friends/:friendId')

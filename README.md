@@ -3,6 +3,8 @@
 
 ## Purpose 
 
+This an API for social network web application where useres can share their thoughts, react to friends' thoughts, and create a friend list.
+
 ## Walkthrough video
 
 ## Programs Used
