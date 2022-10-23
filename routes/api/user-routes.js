@@ -25,9 +25,6 @@ router
 .put(updateUser)
 .delete(eraseUser)
 
-router
-.route('/:userId')
-.delete(deleteUser);
 
 router
 .route('/:userId/friends/:friendId')

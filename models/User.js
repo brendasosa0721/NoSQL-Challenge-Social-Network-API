@@ -47,7 +47,7 @@ UserSchema.virtual('friendCount').get(function () { // this function is retrievi
 
 // Building the User model with UserSchema
 
-const User = mode ('User', UserSchema);
+const User = model ('User', UserSchema);
 
 //Exporting
 
